@@ -1,0 +1,21 @@
+aws s3 CAvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=ca/CAvideos.csv
+aws s3 cp data/DEvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=de/DEvideos.csv
+aws s3 cp data/FRvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=fr/FRvideos.csv
+aws s3 cp data/GBvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=gb/GBvideos.csv
+aws s3 cp data/INvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=in/INvideos.csv
+aws s3 cp data/JPvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=jp/JPvideos.csv
+aws s3 cp data/KRvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=kr/KRvideos.csv
+aws s3 cp data/MXvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=mx/MXvideos.csv
+aws s3 cp data/RUvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=ru/RUvideos.csv
+aws s3 cp data/USvideos.csv s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics/region=us/USvideos.csv
+aws s3 cp data/CA_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=ca/CA_category_id.json
+aws s3 cp data/DE_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=de/DE_category_id.json
+aws s3 cp data/FR_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=fr/FR_category_id.json
+aws s3 cp data/GB_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=gb/GB_category_id.json
+aws s3 cp data/IN_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=in/IN_category_id.json
+aws s3 cp data/JP_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=jp/JP_category_id.json
+aws s3 cp data/KR_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=kr/KR_category_id.json
+aws s3 cp data/MX_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=mx/MX_category_id.json
+aws s3 cp data/RU_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=ru/RU_category_id.json
+aws s3 cp data/US_category_id.json s3://yt-data-pipeline-bronze-ap-south-dev/youtube/raw_statistics_reference_data/region=us/US_category_id.json
+
